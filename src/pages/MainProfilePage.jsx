@@ -8,7 +8,7 @@ export default function MainProfilePage() {
   const {
     introduction: { title, contents, more },
   } = profile;
-  const intro = <ContentsIntroduction contents={contents} more={more} />;
+  const intro = () => <ContentsIntroduction contents={contents} more={more} />;
 
   return (
     <div>
