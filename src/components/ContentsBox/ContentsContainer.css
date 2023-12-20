@@ -1,0 +1,12 @@
+.contents_container {
+  max-width: 57.0625rem;
+  border: 3px solid #d6d6d6;
+}
+
+.contents_container > p {
+  text-align: justify;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  width: fit-content;
+  margin: 3rem auto 2rem;
+}

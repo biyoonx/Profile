@@ -1,0 +1,16 @@
+.contents_title {
+  height: 3.75rem;
+  line-height: 3.75rem;
+  width: fit-content;
+  background: #dff2d8;
+  margin-left: 4rem;
+  margin-bottom: calc(-3.75rem / 2);
+  position: relative;
+  z-index: 500;
+}
+
+.contents_title > p {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: auto 1rem;
+}

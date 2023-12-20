@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 3rem 2rem;
+}
+
+.header h3 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin: 2.5rem;
+}
+
+.header .profile_image {
+  width: 13.125rem;
+  height: 13.125rem;
+  background-color: #d0f6b8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
