@@ -1,0 +1,27 @@
+.intro {
+  width: 100%;
+  margin: auto;
+}
+.intro:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.intro_list {
+  text-align: justify;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  margin-left: 1.5rem;
+  line-height: 2.3rem;
+}
+
+.link,
+.link a {
+  margin-top: 2.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  float: right;
+}

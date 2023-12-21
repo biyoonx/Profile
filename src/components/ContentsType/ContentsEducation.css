@@ -1,0 +1,14 @@
+.edu {
+  max-width: 27rem;
+}
+
+.edu th,
+.edu td {
+  vertical-align: top;
+  line-height: 2rem;
+}
+.edu th {
+  padding-right: 1rem;
+  text-align: left;
+	font-weight: 450;
+}

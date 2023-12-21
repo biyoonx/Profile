@@ -1,12 +1,10 @@
 .contents_container {
   max-width: 57.0625rem;
+  height: fit-content;
   border: 3px solid #d6d6d6;
-}
+  padding: 3rem 2rem 1.5rem;
 
-.contents_container > p {
-  text-align: justify;
+  color: #000;
   font-size: 1.5625rem;
   font-weight: 300;
-  width: fit-content;
-  margin: 3rem auto 2rem;
 }

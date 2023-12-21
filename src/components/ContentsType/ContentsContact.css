@@ -1,0 +1,9 @@
+.cont {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  min-width: 18rem;
+}
+.cont li {
+  list-style-type: none;
+}

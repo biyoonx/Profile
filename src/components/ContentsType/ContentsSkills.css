@@ -1,0 +1,14 @@
+.skill tr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  line-height: 2.5rem;
+}
+.skill th {
+  padding-right: 1rem;
+  text-align: left;
+  font-weight: 450;
+}
+
+.skill {
+  font-size: 1.2rem;
+}

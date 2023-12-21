@@ -4,7 +4,7 @@ import './Header.css'
 import { header } from '../../contents/Header/header-contents';
 
 export default function Header() {
-  const { name, title, Image } = header;
+  const { name, title, image } = header;
   
   return (
     <div className='header'>
@@ -13,7 +13,7 @@ export default function Header() {
         <h3>{title}</h3>
       </div>
       <div className='profile_image'>
-        <Image />
+        <img src={image} alt='profile_image' />
       </div>
     </div>
   );

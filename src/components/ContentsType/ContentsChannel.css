@@ -1,0 +1,34 @@
+.chan {
+  display: flex;
+  height: 5rem;
+}
+
+.chan li {
+  list-style-type: none;
+  text-indent: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+.chan li div {
+  text-align: center;
+}
+.chan li:first-of-type div {
+  width: 6.5rem;
+}
+.chan li:last-of-type div {
+  width: 7.8125rem;
+}
+.chan li > img {
+  width: 6.875rem;
+  object-fit: fill;
+}
+.chan li:first-of-type a > img {
+  margin-left: -1.2rem;
+}
+.chan li:last-of-type a > img {
+  margin-left: 1rem;
+}
+.chan li div img {
+  width: 1.6875rem;
+}

@@ -1,0 +1,8 @@
+.certi td {
+  line-height: 2rem;
+}
+
+.certi td:first-of-type {
+  padding-right: 1rem;
+	font-weight: 450;
+}

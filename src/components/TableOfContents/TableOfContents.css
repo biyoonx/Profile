@@ -1,0 +1,46 @@
+.index {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.index a {
+  text-decoration: none;
+  color: #000;
+}
+
+.index > p {
+  font-size: 4.375rem;
+  font-weight: 700;
+  position: absolute;
+}
+.index > p:first-of-type {
+  left: 0;
+  top: 0;
+}
+.index > p:last-of-type {
+  right: 0;
+  bottom: 0;
+}
+
+.index h4 {
+  text-align: center;
+  font-size: 2.0625rem;
+  font-weight: 700;
+  padding-top: 3rem;
+}
+
+.index ul {
+  padding: 1.5rem 3rem 2rem;
+}
+.index ul li {
+  list-style-type: none;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+.index ul li p {
+  cursor: pointer;
+  width: fit-content;
+}

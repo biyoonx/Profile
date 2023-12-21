@@ -12,7 +12,7 @@
 .header h3 {
   font-size: 1.875rem;
   font-weight: 600;
-  margin: 2.5rem;
+  margin: 2.5rem 2.5rem 0.5rem;
 }
 
 .header .profile_image {
@@ -24,4 +24,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+}
+.header .profile_image img {
+  width: 9.625rem;
 }

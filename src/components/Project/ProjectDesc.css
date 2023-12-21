@@ -1,0 +1,40 @@
+.react-pdf__Page__textContent,
+.textLayer,
+.react-pdf__Page__annotations,
+.annotationLayer {
+  display: none;
+}
+
+.react-pdf__Page__canvas {
+  max-width: 100%;
+  object-fit: contain;
+  margin: -2rem auto;
+}
+
+.contents_container > div > p:not(.modeling p) {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem auto -0.5rem;
+}
+.contents_container > div > p > span {
+  margin: 0.5rem;
+  z-index: 100;
+  position: relative;
+  display: inline-block;
+}
+.contents_container > div > p > span:first-of-type,
+.contents_container > div > p > span:last-of-type {
+  cursor: pointer;
+  background: #f1f1f1;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.7rem;
+  line-height: 1.2em;
+  text-align: center;
+}
+.contents_container > div > p > span:first-of-type:hover,
+.contents_container > div > p > span:last-of-type:hover {
+  background: #484848;
+  color: #f1f1f1;
+}

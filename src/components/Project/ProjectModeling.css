@@ -1,0 +1,28 @@
+.modeling {
+  width: 27rem;
+  height: 14rem;
+}
+
+.modeling > p {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.modeling li {
+  list-style-type: none;
+  text-indent: 3rem;
+}
+.modeling li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  line-height: 3rem;
+}
+.modeling li a img {
+  margin: 0;
+  margin-left: 0.5rem;
+  vertical-align: sub;
+  width: 1.875rem;
+}

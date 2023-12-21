@@ -1,0 +1,26 @@
+.port > li {
+  list-style-type: none;
+  min-height: 3.125rem;
+  line-height: 3.125rem;
+}
+.port > li:last-of-type {
+  margin-top: 1.55rem;
+}
+.port div:first-of-type {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.port img:not(.port div img:first-of-type) {
+  margin-left: 0.5rem;
+  width: 1.875rem;
+}
+.port img:not(.port li:first-of-type img:last-of-type) {
+  vertical-align: sub;
+}
+
+.port a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,50 @@
+.project_func .project_func_title {
+  padding: 2rem 1rem;
+}
+
+.project_func .project_func_title h6 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  width: 9.9375rem;
+  height: 2.8125rem;
+  background: #f1f1f1;
+  text-align: center;
+  line-height: 2.8125rem;
+}
+
+.project_func .project_architecture {
+  height: 22.6875rem;
+  display: block;
+  margin: auto;
+}
+
+.project_func .project_func_toggle button {
+  border: none;
+  outline: none;
+  background: none;
+  color: #000;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  float: right;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.project_func .project_func_toggle:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.project_func .project_func_list li {
+  list-style-type: none;
+}
+.project_func .project_func_list > li {
+  margin-top: 1rem;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+.project_func .project_func_list > li li {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-indent: 1rem;
+}

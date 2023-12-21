@@ -1,0 +1,19 @@
+.experi {
+  margin: auto;
+  width: 57.0625rem;
+}
+
+.experi > li {
+  list-style-type: none;
+  font-weight: 360;
+}
+.experi > li:not(:last-of-type) {
+  margin-bottom: 0.75rem;
+}
+.experi > li li {
+  list-style-type: circle;
+  margin-left: 2rem;
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
+  font-weight: 300;
+}

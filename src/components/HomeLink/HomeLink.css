@@ -1,0 +1,17 @@
+.home_link {
+  margin: 2rem auto;
+}
+
+.home_link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  float: right;
+}
+
+.home_link:after {
+  content: '';
+  display: block;
+  clear: both;
+}

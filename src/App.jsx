@@ -7,12 +7,15 @@ import {
 import './App.css';
 
 import RootLayout from './components/RootLayout/RootLayout';
-import MainProfilePage from './pages/MainProfilePage';
+import CVPage from './pages/CVPage';
+import CoverLetterPage from './pages/CoverLetterPage';
+import ProjectPage from './pages/ProjectPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <RootLayout />,
+    errorElement: <Navigate replace to={'cv'} />,
     children: [
       {
         path: '',
@@ -20,15 +23,15 @@ const router = createBrowserRouter([
       },
       {
         path: 'cv',
-        element: <MainProfilePage />,
+        element: <CVPage />,
       },
       {
         path: 'cover_letter',
-        // element: <
+        element: <CoverLetterPage />,
       },
       {
         path: 'project',
-        // element: <
+        element: <ProjectPage />,
       },
     ],
   },
