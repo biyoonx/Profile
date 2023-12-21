@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Profile/static/css/main.4f37182f.css",
+    "main.js": "/Profile/static/js/main.d6686b49.js",
+    "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
+    "static/media/profile.svg": "/Profile/static/media/profile.23eefce8ddf56f9bc6e314377b314eb5.svg",
+    "static/media/project.pdf": "/Profile/static/media/project.6154751b5ec17615f497.pdf",
+    "static/media/github.svg": "/Profile/static/media/github.62861c260108a0f5fbb21fa9a01cc4c5.svg",
+    "static/media/architecture.svg": "/Profile/static/media/architecture.769ac05fa12e4195dc191b92b81708dc.svg",
+    "static/media/architecture_detail.svg": "/Profile/static/media/architecture_detail.10173f4914f19e84407d7f8699ed30db.svg",
+    "static/media/logo.svg": "/Profile/static/media/logo.7e949bdb388af6b4b6caa90ca4686b92.svg",
+    "static/media/naver-blog.svg": "/Profile/static/media/naver-blog.483ea720a04e01ba5317d6ffbbde6565.svg",
+    "static/media/backlinks.png": "/Profile/static/media/backlinks.494bcee6cf97d160777c.png",
+    "static/media/blog.png": "/Profile/static/media/blog.840e2a3f5cac89661133.png",
+    "static/media/programming.png": "/Profile/static/media/programming.c29ef1f335e5f30001d8.png",
+    "static/media/pdf-file.png": "/Profile/static/media/pdf-file.c6e97cfec69878c3c182.png",
+    "index.html": "/Profile/index.html",
+    "main.4f37182f.css.map": "/Profile/static/css/main.4f37182f.css.map",
+    "main.d6686b49.js.map": "/Profile/static/js/main.d6686b49.js.map",
+    "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f37182f.css",
+    "static/js/main.d6686b49.js"
+  ]
+}
