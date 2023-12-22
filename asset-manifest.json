@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Profile/static/css/main.4f37182f.css",
-    "main.js": "/Profile/static/js/main.73a6fd6d.js",
+    "main.css": "/Profile/static/css/main.0448796f.css",
+    "main.js": "/Profile/static/js/main.2567772f.js",
     "static/js/787.e6fe0fcf.chunk.js": "/Profile/static/js/787.e6fe0fcf.chunk.js",
+    "static/media/project.pdf": "/Profile/static/media/project.5314436cd58e3af564e7.pdf",
+    "static/media/project_function.pdf": "/Profile/static/media/project_function.471fc517cf71161fcf62.pdf",
     "static/media/profile.svg": "/Profile/static/media/profile.23eefce8ddf56f9bc6e314377b314eb5.svg",
-    "static/media/project.pdf": "/Profile/static/media/project.6154751b5ec17615f497.pdf",
     "static/media/github.svg": "/Profile/static/media/github.62861c260108a0f5fbb21fa9a01cc4c5.svg",
     "static/media/architecture.svg": "/Profile/static/media/architecture.769ac05fa12e4195dc191b92b81708dc.svg",
     "static/media/architecture_detail.svg": "/Profile/static/media/architecture_detail.10173f4914f19e84407d7f8699ed30db.svg",
@@ -15,12 +16,12 @@
     "static/media/programming.png": "/Profile/static/media/programming.c29ef1f335e5f30001d8.png",
     "static/media/pdf-file.png": "/Profile/static/media/pdf-file.c6e97cfec69878c3c182.png",
     "index.html": "/Profile/index.html",
-    "main.4f37182f.css.map": "/Profile/static/css/main.4f37182f.css.map",
-    "main.73a6fd6d.js.map": "/Profile/static/js/main.73a6fd6d.js.map",
+    "main.0448796f.css.map": "/Profile/static/css/main.0448796f.css.map",
+    "main.2567772f.js.map": "/Profile/static/js/main.2567772f.js.map",
     "787.e6fe0fcf.chunk.js.map": "/Profile/static/js/787.e6fe0fcf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f37182f.css",
-    "static/js/main.73a6fd6d.js"
+    "static/css/main.0448796f.css",
+    "static/js/main.2567772f.js"
   ]
 }
