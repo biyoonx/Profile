@@ -13,7 +13,7 @@ import ProjectPage from './pages/ProjectPage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Profile',
     element: <RootLayout />,
     errorElement: <Navigate replace to={'cv'} />,
     children: [
