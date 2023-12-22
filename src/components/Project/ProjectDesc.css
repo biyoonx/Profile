@@ -1,3 +1,29 @@
+.select_pdf_button {
+  position: relative;
+  z-index: 10;
+  width: 100vw;
+}
+.select_pdf_button button {
+  border: none;
+  outline: none;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  text-align: center;
+  width: fit-content;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: 1rem;
+  background: #f1f1f1;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.select_pdf_button button:hover {
+  background: #484848;
+  color: #f1f1f1;
+}
+
 .react-pdf__Page__textContent,
 .textLayer,
 .react-pdf__Page__annotations,

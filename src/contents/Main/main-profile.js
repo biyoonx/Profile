@@ -98,6 +98,6 @@ export const profile = {
   },
   contact: {
     title: 'Contact📞',
-    contents: ['📧 ok2geoya@gmail.com'],
+    contents: [{ type: 'email', content: '📧 ok2geoya@gmail.com' }],
   },
 };

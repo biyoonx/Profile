@@ -57,20 +57,20 @@ export default function ProjectPage() {
           </>
         )}
       />
-      {false && <ContentsBox
+      <ContentsBox
         title={desc.title}
         contents={() => <ProjectDesc contents={desc.pdf} />}
-      />}
+      />
       <ContentsBox
         title={modeling.title}
         contents={() => <ProjectModeling contents={modeling.contents} />}
       />
-      {false && <ContentsBox
+      <ContentsBox
         title={troubleShooting.title}
         contents={() => (
           <ProjectTroubleShooting contents={troubleShooting.contents} />
         )}
-      />}
+      />
     </div>
   );
 }

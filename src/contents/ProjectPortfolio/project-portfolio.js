@@ -4,6 +4,7 @@ import blog from '../blog.png';
 import summary from './architecture.svg';
 import detail from './architecture_detail.svg';
 import project from './project.pdf';
+import projectFunction from './project_function.pdf';
 
 export const ruralCommunitiesActivityProject = {
   home: {
@@ -116,7 +117,7 @@ export const ruralCommunitiesActivityProject = {
   },
   desc: {
     title: '프로젝트 소개 및 설명',
-    pdf: project,
+    pdf: { desc: project, func: projectFunction },
   },
   modeling: {
     title: '프로젝트 소개 및 모델링 자료',
@@ -127,25 +128,25 @@ export const ruralCommunitiesActivityProject = {
           text: '프로젝트 농촌빛길 소개자료',
           link: 'https://drive.google.com/file/d/1YipgYJCHQW77UuNELcIwWRrFC_hedGG7/view?usp=sharing',
           image: pdf,
-					desc: 'project_pdf'
+          desc: 'project_pdf',
         },
         {
           text: '프로젝트 전체 코드 및 시연영상',
           link: 'https://github.com/JAVAJOProject/RuralCommunitiesActivity',
           image: link,
-					desc: 'project_code'
+          desc: 'project_code',
         },
         {
           text: 'DB 모델링(ERDCloud)',
           link: 'https://www.erdcloud.com/d/pTwBuwDLFnuuFYLy5',
           image: link,
-					desc: 'project_db'
+          desc: 'project_db',
         },
         {
           text: 'UI 도안(Figma)',
           link: 'https://www.figma.com/file/S7JfNevGagugPj4odQQ9SK/Final-Project-%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B0%80%EC%95%88?type=design&node-id=0%3A1&mode=design&t=bne6jsU5NDRnILzN-1',
           image: link,
-					desc: 'project_ui'
+          desc: 'project_ui',
         },
       ],
     },
