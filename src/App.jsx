@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  createBrowserRouter,
-  Navigate,
-  RouterProvider,
-} from 'react-router-dom';
+import { createHashRouter, Navigate, RouterProvider } from 'react-router-dom';
 import './App.css';
 
 import RootLayout from './components/RootLayout/RootLayout';
@@ -11,7 +7,7 @@ import CVPage from './pages/CVPage';
 import CoverLetterPage from './pages/CoverLetterPage';
 import ProjectPage from './pages/ProjectPage';
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
       path: '/',
@@ -38,7 +34,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: '/Profile',
+    basename: '/',
   }
 );
 
