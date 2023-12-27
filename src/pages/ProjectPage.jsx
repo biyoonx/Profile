@@ -65,12 +65,12 @@ export default function ProjectPage() {
         title={modeling.title}
         contents={() => <ProjectModeling contents={modeling.contents} />}
       />
-      <ContentsBox
+      {false && <ContentsBox
         title={troubleShooting.title}
         contents={() => (
           <ProjectTroubleShooting contents={troubleShooting.contents} />
         )}
-      />
+      />}
     </div>
   );
 }
