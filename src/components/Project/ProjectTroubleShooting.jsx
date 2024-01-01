@@ -7,7 +7,7 @@ export default function ProjectTroubleShooting({ contents }) {
     <ul className="troubleShooting">
       {contents.map((item) => (
         <li key={item.desc}>
-          <Link to={item.line} target="_blank">
+          <Link to={item.link} target="_blank">
             <img src={item.image} alt={item.desc} />
             {item.text}
           </Link>

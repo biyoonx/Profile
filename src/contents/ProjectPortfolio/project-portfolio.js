@@ -156,22 +156,22 @@ export const ruralCommunitiesActivityProject = {
     contents: [
       {
         text: '이미지 파일첨부',
-        link: '',
+        link: 'https://blog.naver.com/biyoonx/223309631840',
         desc: 'image_uploader',
         image: blog,
       },
-      {
-        text: '페이지네이션',
-        link: '',
-        desc: 'pagination',
-        image: blog,
-      },
-      {
-        text: '이미지 리소스 반환',
-        link: '',
-        desc: 'image_resource_response',
-        image: blog,
-      },
+      // {
+      //   text: '페이지네이션',
+      //   link: '',
+      //   desc: 'pagination',
+      //   image: blog,
+      // },
+      // {
+      //   text: '이미지 리소스 반환',
+      //   link: '',
+      //   desc: 'image_resource_response',
+      //   image: blog,
+      // },
     ],
   },
 };
