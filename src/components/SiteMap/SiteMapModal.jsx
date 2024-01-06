@@ -51,6 +51,7 @@ export default function SiteMapModal({ isOpen, closeModal }) {
     { page: '프로필🔖', link: 'cv' },
     { page: '자기소개📋', link: 'cover_letter' },
     { page: '포트폴리오🔰', link: 'project' },
+    { page: '개인 토이프로젝트', link: 'personal_portfolio' },
   ];
 
   return (
@@ -59,7 +60,7 @@ export default function SiteMapModal({ isOpen, closeModal }) {
         <h3>{siteMapTitle}</h3>
         <span onClick={closeModal}>x</span>
       </div>
-      <hr className='sitemap_divider' />
+      <hr className="sitemap_divider" />
       <div className="sitemap_list">
         <ul>
           {siteMapList.map((item) => (

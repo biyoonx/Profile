@@ -6,6 +6,7 @@ import RootLayout from './components/RootLayout/RootLayout';
 import CVPage from './pages/CVPage';
 import CoverLetterPage from './pages/CoverLetterPage';
 import ProjectPage from './pages/ProjectPage';
+import PersonalPortfolioPage from './pages/PersonalPortfolioPage';
 
 const router = createHashRouter(
   [
@@ -29,6 +30,10 @@ const router = createHashRouter(
         {
           path: 'project',
           element: <ProjectPage />,
+        },
+        {
+          path: 'personal_portfolio',
+          element: <PersonalPortfolioPage />,
         },
       ],
     },
