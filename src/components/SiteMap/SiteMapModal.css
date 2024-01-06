@@ -1,0 +1,39 @@
+.sitemap_title {
+  margin: 1rem;
+  width: 20rem;
+}
+.sitemap_title h3 {
+  text-align: center;
+}
+.sitemap_title span {
+  width: fit-content;
+  background-color: #484848;
+  padding: 0 0.4rem 0.25rem;
+  border-radius: 0.2rem;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin-top: -1.5rem;
+}
+.sitemap_title span:hover {
+  background: #ccc;
+  color: #000;
+  font-weight: bold;
+}
+
+.sitemap_divider {
+  margin: auto 1rem;
+}
+
+.sitemap_list {
+  padding: 0.8rem 2rem;
+}
+.sitemap_list li {
+  list-style-type: none;
+  margin: 1rem;
+  width: fit-content;
+  cursor: pointer;
+}
+.sitemap_list li:hover {
+  font-weight: bold;
+}

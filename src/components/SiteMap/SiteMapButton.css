@@ -1,0 +1,17 @@
+.sitemap_box {
+  width: 57.0625rem;
+  padding-left: 1rem;
+  margin: 0.5rem auto -1rem;
+}
+
+.sitemap_button {
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.sitemap_button p {
+  margin: 0.3rem;
+}
