@@ -1,0 +1,13 @@
+.toy_project_desc {
+  width: 100%;
+  margin: auto;
+}
+
+.toy_project_desc_list {
+  text-align: justify;
+  margin-left: 1.5rem;
+}
+.toy_project_desc_list li {
+  margin: 0.5rem auto;
+  font-size: 1.3rem;
+}

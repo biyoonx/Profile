@@ -1,17 +1,3 @@
-.project_func .project_func_title {
-  padding: 2rem 1rem;
-}
-
-.project_func .project_func_title h6 {
-  font-size: 1.5625rem;
-  font-weight: 700;
-  width: 9.9375rem;
-  height: 2.8125rem;
-  background: #f1f1f1;
-  text-align: center;
-  line-height: 2.8125rem;
-}
-
 .project_func .project_architecture {
   height: 22.6875rem;
   display: block;

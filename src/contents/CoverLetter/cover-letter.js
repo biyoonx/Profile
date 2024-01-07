@@ -6,9 +6,9 @@ export const coverLetter = {
   tableOfContents: {
     title: '📓목차',
     contents: [
-      { text: '📍왜 개발자가 되고자 하는가', index: 'why' },
-      { text: '📍Strength', index: 'strength' },
-      { text: '📍How to', index: 'how' },
+      { text: '왜 개발자가 되고자 하는가', index: 'why' },
+      { text: 'Strength', index: 'strength' },
+      { text: 'How to', index: 'how' },
     ],
   },
   element: [

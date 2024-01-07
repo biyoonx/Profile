@@ -1,0 +1,18 @@
+.project_result {
+  width: fit-content;
+}
+.project_result img {
+  display: block;
+  margin: auto;
+}
+
+.project_result button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  border-radius: 3rem;
+  background: #dff2d8;
+  display: block;
+  margin: -4rem 0 1.5rem 13rem;
+}

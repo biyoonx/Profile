@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import link from '../backlinks.png';
 import pdf from '../pdf-file.png';
-import github from './github.svg';
+import github from '../github.svg';
 import naverblog from './naver-blog.svg';
 import code from '../programming.png';
 import blog from '../blog.png';
@@ -70,8 +70,8 @@ export const profile = {
     title: 'Skills📝',
     contents: [
       'Front-End JavaScript, HTML, CSS, Ajax',
-      'Back-End Java, JSP, Servlet, MyBatis',
-      'Framework/Library Spring, React',
+      'Back-End Java, JSP, Servlet',
+      'Framework/Library Spring, React, MyBatis',
       'DB Oracle, MySQL',
       'Tool Eclipse, VS Code, IntelliJ',
       'Collaboration Git/GitHub',

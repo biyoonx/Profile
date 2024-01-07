@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 
 import Header from './Header';
 import Divider from '../Divider/Divider';
+import TopButton from '../Button/TopButton';
 import SiteMapButton from '../SiteMap/SiteMapButton';
 import SiteMapModal from '../SiteMap/SiteMapModal';
 
@@ -18,6 +19,7 @@ export default function RootLayout() {
         btnAction={() => setIsModalOpen(true)}
       />
       <Divider />
+      <TopButton />
       <main>
         <Outlet />
       </main>

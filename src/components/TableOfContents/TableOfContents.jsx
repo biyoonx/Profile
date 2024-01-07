@@ -14,6 +14,7 @@ export default function TableOfContents({ contents, offset }) {
               window.scrollTo({ top: offset[item.index], behavior: 'smooth' });
             }}
           >
+            <span className="index_list_marker">📍</span>
             <p>{item.text}</p>
           </li>
         ))}

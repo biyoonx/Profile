@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ProjectFunc.css';
+import ContentsSubtitle from '../ContentsBox/ContentsSubtitle';
 
 export default function ProjectFunc({ contents }) {
   const { title, architecture, more } = contents;
@@ -7,9 +8,7 @@ export default function ProjectFunc({ contents }) {
 
   return (
     <div className="project_func">
-      <div className="project_func_title">
-        <h6>{title}</h6>
-      </div>
+      <ContentsSubtitle title={title} />
       <img
         className="project_architecture"
         src={architecture[+isOpen].image}

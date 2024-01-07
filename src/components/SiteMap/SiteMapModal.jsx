@@ -51,7 +51,7 @@ export default function SiteMapModal({ isOpen, closeModal }) {
     { page: '프로필🔖', link: 'cv' },
     { page: '자기소개📋', link: 'cover_letter' },
     { page: '포트폴리오🔰', link: 'project' },
-    { page: '개인 토이프로젝트', link: 'personal_portfolio' },
+    { page: '개인 토이프로젝트📚', link: 'personal_portfolio' },
   ];
 
   return (
@@ -65,6 +65,7 @@ export default function SiteMapModal({ isOpen, closeModal }) {
         <ul>
           {siteMapList.map((item) => (
             <li
+              key={item.page}
               onClick={() => {
                 navigate(item.link);
                 closeModal();
