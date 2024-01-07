@@ -8,7 +8,12 @@ export default function ContentsPortfolio({ contents }) {
   return (
     <ul className="port">
       <li>
-        <Link to={team.link} onClick={() => window.scrollTo(0, 0)}>
+        <Link
+          to={team.link}
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
           <div>
             <img src={team.mainImage} alt="project_logo" />
             <img src={team.linkImage} alt="link" />
@@ -23,7 +28,12 @@ export default function ContentsPortfolio({ contents }) {
         </Link>
       </li>
       <li>
-        <Link to={personal.link} target="_blank">
+        <Link
+          to={personal.link}
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
           {personal.linkText}
           <img src={personal.linkImage} alt="link" />
         </Link>

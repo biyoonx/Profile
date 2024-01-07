@@ -61,7 +61,7 @@ export const profile = {
       },
       personal: {
         linkText: '개인 토이프로젝트 코드 및 기록',
-        link: 'https://github.com/biyoonx/Practical_code_I_crafted',
+        link: '/personal_portfolio',
         linkImage: link,
       },
     },

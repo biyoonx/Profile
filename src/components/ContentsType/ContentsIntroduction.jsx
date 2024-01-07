@@ -22,7 +22,9 @@ export default function ContentsIntroduction({ contents, more }) {
         <Link
           to={more.link}
           className="link"
-          onClick={() => window.scrollTo(0, 0)}
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
         >
           {more.text}
         </Link>

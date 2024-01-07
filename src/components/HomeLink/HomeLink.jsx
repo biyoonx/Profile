@@ -7,7 +7,12 @@ export default function HomeLink({ homeInfo }) {
 
   return (
     <div className="home_link">
-      <Link to={link} onClick={() => window.scrollTo(0, 0)}>
+      <Link
+        to={link}
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+      >
         {text}
       </Link>
     </div>
