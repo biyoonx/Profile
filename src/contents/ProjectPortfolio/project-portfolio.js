@@ -160,12 +160,12 @@ export const ruralCommunitiesActivityProject = {
         desc: 'image_uploader',
         image: blog,
       },
-      // {
-      //   text: '네트워크 통신',
-      //   link: '',
-      //   desc: 'network_communication',
-      //   image: blog,
-      // },
+      {
+        text: '네트워크 통신',
+        link: '',
+        desc: 'network_communication',
+        image: blog,
+      },
       {
         text: '페이지네이션',
         link: 'https://blog.naver.com/biyoonx/223316417088',
